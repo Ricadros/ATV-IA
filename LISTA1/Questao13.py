@@ -6,4 +6,7 @@ pesoDoPeixe = float(input('DIGITE O PESO TOTAL EM (KG) DOS PEIXES'))
 if pesoDoPeixe > 50 : 
     excesso = pesoDoPeixe -50  
     multa = excesso * 4 
-print('Com essa quantidade de peixe em (KG) voce deverá pagar',multa,' poís seu excesso é de ',excesso)
+    print('Com essa quantidade de peixe em (KG) voce deverá pagar',multa,' poís seu excesso é de ',excesso)
+else : 
+    print('Nao deve pagar multa')
+ 
